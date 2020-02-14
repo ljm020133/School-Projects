@@ -27,6 +27,6 @@ public class StringTest {
 		String replace = message.replace("o", "*");
 		System.out.println(replace);
 		
-		
+		 
 }
 }
