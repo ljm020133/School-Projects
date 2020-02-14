@@ -24,7 +24,7 @@ System.out.println("lower case word of s which is " +s +" is " +(s.toLowerCase()
 //mutator
 //increaseX();
 	
-
+ 
 	}
 
 
