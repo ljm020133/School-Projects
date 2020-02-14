@@ -23,5 +23,4 @@ public class FitnessTracker {
 		totalSteps = 0;
 		
 	}
-	
 }
