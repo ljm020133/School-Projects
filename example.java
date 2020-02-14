@@ -1,6 +1,6 @@
 // 1. class name
 public class example {
-
+ 
 	
 // 2. instance variables
 private int a;
