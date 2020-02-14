@@ -1,4 +1,4 @@
-package postage2;
+package postage3;
 
 public class PostageUtil
 {
@@ -13,18 +13,16 @@ public class PostageUtil
    */
   public static double computePostage(double weight)
   {
-		{
-		if (weight <= 1){
-	          cost = 0.47;}
+	  {
 			if (weight > 1) {
-				cost = 0.47+ Math.ceil(weight-1) * 0.21;
+				cost = cost + Math.ceil(weight-1) * 0.21;
+			if (weight > 3.5) 
+				cost = cost + 0.47;
+			
+		
 			}
-			if (weight > 3.5) {
-				cost = 0.94 + Math.ceil(weight - 1) * 0.21;
-			}
-	            else
-	            { cost = 0.47 + Math.ceil(weight - 1) * 0.21;}
-		return cost;
+			return cost;
 		}
+
   }
 }

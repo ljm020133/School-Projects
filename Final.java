@@ -1,4 +1,4 @@
-package postage2;
+package postage3;
 import java.util.Scanner;
 
 import postage1.PostageUtil;
