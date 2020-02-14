@@ -14,5 +14,4 @@ public class AtomTest {
 		System.out.println(a.getAtomicCharge());
 
 	}
-
 }
