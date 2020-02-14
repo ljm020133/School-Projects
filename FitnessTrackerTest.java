@@ -14,5 +14,4 @@ public class FitnessTrackerTest {
 		System.out.println(a.getTotalSteps());
 		System.out.println(a.getCaloriesBurned());
 	}
-
 }
