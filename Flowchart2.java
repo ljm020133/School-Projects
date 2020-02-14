@@ -1,4 +1,4 @@
-package labPractice;
+package postage2;
 public class Flowchart2 {
 	
 		public double weight;
@@ -19,5 +19,4 @@ public class Flowchart2 {
 		}
 
 	}
- 
- 
+

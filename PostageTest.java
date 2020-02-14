@@ -1,9 +1,9 @@
-package postage1;
+package postage2;
 
 /**
  * Edit this import to test a different version
  */
-import postage1.PostageUtil;;
+import postage2.PostageUtil;;
 
 public class PostageTest
 {
